@@ -2,6 +2,6 @@
 Basic blog application with Laravel 7.
 
 Including,
-- Admin panel(AdminLTE).
+- Admin Panel.
 - Add, update and delete posts.
 - View posts.

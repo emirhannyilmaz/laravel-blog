@@ -9,14 +9,15 @@
         width: 600px;
         margin: 0 auto;
         border: 1px solid #ccc;
+        border-radius: 10px;
       }
     </style>
   </head>
   <body>
     <br>
     <div class="container box">
-      <h3 align="center">Admin</h3>
       <br>
+      <h3 align="center">Admin</h3>
       @if($message = Session::get('error'))
       <div class="alert alert-danger alert-block">
         <button type="button" class="close" data-dismiss="alert">x</button>
