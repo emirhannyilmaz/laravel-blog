@@ -22,7 +22,7 @@
           <!-- /.card-header -->
           <div class="card-body pad">
             <div class="mb-3">
-              <form action="{{ route('createPost') }}" method="post">
+              <form action="{{ route('_createPost') }}" method="post">
                 @csrf
                 <div class="form-group">
                   <input type="text" class="form-control" name="title" placeholder="Title">
